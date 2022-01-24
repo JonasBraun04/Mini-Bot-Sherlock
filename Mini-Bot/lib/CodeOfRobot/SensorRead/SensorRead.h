@@ -2,11 +2,11 @@
 #define SensorRead_h
 
 #include "../Util/Util.h"
-
+ 
 class RemoteControl
 {
 private:
-    typedef struct struct_message;
+    typedef struct  struct_message;
 
     static void RemoteSetup();
     static void RemoteLoop();
